@@ -1,0 +1,14 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vmin; /* Adjust the emoji size */
+}
+
+.emoji {
+  position: absolute;
+  will-change: transform;
+}
